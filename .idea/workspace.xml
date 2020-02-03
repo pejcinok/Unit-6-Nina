@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4773620b-0da5-4f72-97a5-40b1b2ef8900" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrequencyChart.java" afterDir="false" />
+    <list default="true" id="4773620b-0da5-4f72-97a5-40b1b2ef8900" name="Default Changelist" comment="&quot;Started writing Frequency Chart&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FrequencyChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrequencyChart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FrequencyChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrequencyChart.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580490308938</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Started writing Frequency Chart&quot;">
+      <created>1580493238876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580493238876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Started writing Frequency Chart&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Started writing Frequency Chart&quot;" />
   </component>
 </project>
