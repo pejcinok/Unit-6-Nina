@@ -1,41 +1,59 @@
 public class MusicLibrary {
-    Album[] albumList;
+    private Album[] albumList;
+
 
     public MusicLibrary(){
-        Album[] albumList = new Album[10];
+         albumList = new Album[10];
     }
 
     public void doubleSize(){
         albumList = new Album[20];
     }
+    //looks for spot that is null, adds album there. If no null spots don't add
 
-    public void add(Album album){
-        albumList = new Album[getAlbumNumber() +1];
-        albumList[getAlbumNumber()] = album;
-    }
+    public boolean add(Album album){
 
-    public void remove(Album album){
-        albumList = new Album[getAlbumNumber()-1];
+        for(int i =0; i<albumList.length; i++){
 
-    }
-
-    public int getAlbumNumber(){
-        return albumList.length;
-    }
-
-    public int totalPlaytime(){
-            int totalTime=0;
-        for (Album a : albumList){
-            totalTime+= ;
+            if (albumList[i] == null){
+                albumList[i] = album;
+                return true;
+            }
         }
+        return false;
+    }
+
+    public boolean remove(int index){
+
+        for (int i=0; i<albumList.length; i++){
+            if (index>=0 && index < albumList.length &&albumList[index] !=null){
+
+                albumList[index]= null;
+                return true;
+            }
+        }
+        return false;
     }
 
 
+    public int totalPlayTime() {
+        int totalTime = 0;
+
+        for (int i = 0; i < albumList.length; i++) {
+            if (albumList[i] != null) {
+                totalTime += albumList[i].getPlayTime();
+            }
+
+        }
+        return totalTime;
+    }
     public String toString(){
         String result = "";
-        result +="Number of albums" + getAlbumNumber() +"\n";
-         result +="total playtime:" + totalPlaytime() + "\n";
-        result += albumList;
+        for(Album a : albumList) {
+            if (a != null)
+            result += a.toString() + "\n";
+        }
+        result += "total runtime:" + totalPlayTime() + "\nnumber of albums";
         return result;
     }
 }
