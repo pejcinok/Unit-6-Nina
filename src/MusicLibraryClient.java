@@ -12,9 +12,10 @@
             System.out.println(myLibrary.add(a2));
             System.out.println(myLibrary.remove(1));
             System.out.println(myLibrary);
-            /*
-            System.out.println("+++++++++++++++++++++++++++++++++++++++");
 
+
+            System.out.println("+++++++++++++++++++++++++++++++++++++++");
+                /*
             myLibrary.doubleSize();
 
             System.out.println(myLibrary);
@@ -22,12 +23,18 @@
             System.out.println("+++++++++++++++++++++++++++++++++++++++");
 
             myLibrary.remove(a1);
+
+             */
             myLibrary.add(a3);
             System.out.println(myLibrary);
 
             System.out.println("+++++++++++++++++++++++++++++++++++++++");
 
-                */
+
+            int loc = myLibrary.findTitle("First");
+            System.out.println("Found 'First' at index " + loc);
+            System.out.println(myLibrary.getAlbum(loc));
+
         }
     }
 

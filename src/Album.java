@@ -14,6 +14,13 @@ public class Album {
         return playTime;
     }
 
+    public String getTitle(){
+        return title;
+    }
+
+    public String getArtist(){
+        return artist;
+    }
     public String toString(){
         String result = "";
         result += title + " by: " + artist + ", # of songs: " + trackNumber + " runtime: " + playTime;

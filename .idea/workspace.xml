@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581009920563</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Wrote add, remove, and total runtime method&quot;">
+      <created>1581096323830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581096323830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Started writing Frequency Chart&quot;" />
     <MESSAGE value="&quot;Started writing MusicLibrary&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Started writing MusicLibrary&quot;" />
+    <MESSAGE value="&quot;Wrote add, remove, and total runtime method&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Wrote add, remove, and total runtime method&quot;" />
   </component>
 </project>
