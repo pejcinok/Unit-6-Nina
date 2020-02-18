@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4773620b-0da5-4f72-97a5-40b1b2ef8900" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MyArray2DExplorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MusicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MusicLibraryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicLibraryClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyArray2DExplorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyArray2DExplorer" />
+      <module name="Unit-6-Nina" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyArray2DExplorer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581096323830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Added albumNumber method, and findArtist and FindAlbum methods&quot;">
+      <created>1581355510652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581355510652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -100,6 +122,10 @@
     <MESSAGE value="&quot;Started writing Frequency Chart&quot;" />
     <MESSAGE value="&quot;Started writing MusicLibrary&quot;" />
     <MESSAGE value="&quot;Wrote add, remove, and total runtime method&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Wrote add, remove, and total runtime method&quot;" />
+    <MESSAGE value="&quot;Added albumNumber method, and findArtist and FindAlbum methods&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added albumNumber method, and findArtist and FindAlbum methods&quot;" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Unit_6_Nina$MyArray2DExplorer.ic" NAME="MyArray2DExplorer Coverage Results" MODIFIED="1581698785209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

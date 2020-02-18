@@ -90,11 +90,37 @@ public class MusicLibrary {
         return null;
     }
 
-    public void sortTitle(Album[] albumList){
-        int unicode;
-        String temp;
+    public void sortByTitle(){
+        Album temp;
+        int min;
+        for (int i = 0; i < albumList.length - 1; i++) {
+            min = i;
+            for(int scan = i + 1; scan < albumList.length; scan++){
+                if (albumList[scan] != null){
+                    if(albumList[scan].getTitle().compareTo(albumList[min].getTitle()) < 0){
+                        min = scan;
+                    }
+                }
+            }
+            temp = albumList[min];
+            albumList[min] = albumList[i];
+            albumList[i] = temp;
+        }
+    }
 
-        for (int i = 0; i<)
+    public void sortByArtist(){
+        for (int i = 1; i < albumList.length; i++){
+            Album key = albumList[i];
+            int pos = i;
+
+            if (albumList[pos] != null){
+                while (pos > 0 && albumList[pos - 1].getArtist().compareTo(key.getArtist()) > 0){
+                    albumList[pos] = albumList[pos - 1];
+                    pos--;
+                }
+            }
+            albumList[pos] = key;
+        }
     }
 
     public String toString(){
