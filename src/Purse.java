@@ -19,7 +19,6 @@ public class Purse {
         int total = 0;
         for (int i = 0; i < coins.size(); i++) {
             total += coins.get(i).getValue();
-            System.out.println(total);;
         }
         return total;
     }
